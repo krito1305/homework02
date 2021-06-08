@@ -3,17 +3,15 @@ import {Platform, StyleSheet, StatusBar} from "react-native";
 export default StyleSheet.create({
     container:{
         backgroundColor: "#fff",        
-        //justifyContent: "space-around",
         padding: 50,
         borderWidth: 1,
         borderStyle: "solid",
         borderColor: "darkslategray"
     },
     column:{
-        //flex:1,
-        //flexWrap: "nowrap",
+        height: 220,
+        justifyContent: "space-between",
         alignSelf: "flex-start", // To change the alignment of the column in regards to the container
-        //justifyContent: "space-evenly",
         paddingRight: "4%",
         paddingLeft: "2%",
         paddingTop: "2%",
@@ -34,7 +32,9 @@ export default StyleSheet.create({
         borderColor: "darkslategray"
     },
     box:{
-        //justifyContent:"space-around",
+        height: 30,
+        width: 90,
+        justifyContent: "center",
         backgroundColor:"lightgrey",
         borderWidth: 1,
         borderStyle: "solid",
@@ -43,6 +43,7 @@ export default StyleSheet.create({
         marginRight: "2%",
         marginLeft: "2%",
         marginBottom: "3%"
+    
     },
     titleText:{
         fontSize: 12,
