@@ -1,14 +1,14 @@
 import React from "react";
 import {Text, View } from "react-native";
-import styles from "./styles";
-import Row from "./Row";
-import Column from "./Column";
+import styles from "./components/styles";
+import Box1 from "./components/Box1";
+import Box2 from "./components/Box2";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Column style={styles.column}></Column>
-      <Row style={styles.row}></Row>
+      <Box1></Box1>
+      <Box2></Box2>
     </View>
   );
 }

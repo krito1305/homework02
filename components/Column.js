@@ -7,7 +7,6 @@ export default function Column() {
  
     return(
     <View style={styles.column}>
-        <Text style={styles.titleText}>Column</Text>
         <Box style={styles.box}></Box>
         <Box style={styles.box}></Box>
         <Box style={styles.box}></Box>
