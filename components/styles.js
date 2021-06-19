@@ -6,7 +6,8 @@ export default StyleSheet.create({
         alignSelf: "center",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "#fff",        
+        backgroundColor: "#fff",   
+        padding: 20,     
         borderWidth: 1,
         borderStyle: "solid",
         borderColor: "darkslategray"
